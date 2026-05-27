@@ -1,0 +1,4 @@
+[A1] 归类：doc
+[提取器] github-raw（直取 README.md）
+[A6] 已归档：02-doc/产出/（提取时间：2026-05-22T02:30:33）
+[结果] README 1,065 bytes

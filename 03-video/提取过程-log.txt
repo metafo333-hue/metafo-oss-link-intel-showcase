@@ -1,0 +1,6 @@
+[A1] 归类：video
+[视频下载] Playwright 拦截 douyinvod.com 视频流 → curl 下载 → 原视频.mp4 (3.4MB)
+[音轨] ffmpeg -vn -acodec pcm_s16le → 完整音轨.wav (35s, 6.0MB)
+[字幕] faster-whisper large-v3 ASR → 字幕-ASR.txt（史铁生《我的梦想》原文）
+[BGM分离] demucs htdemucs --two-stems=vocals → 人声轨.wav + BGM.wav
+[关键帧] ffmpeg fps=1/5 → 7 张 720px 关键帧

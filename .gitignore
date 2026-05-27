@@ -1,0 +1,33 @@
+# link-intel-showcase · 开源仓库 · .gitignore
+
+# 大文件 / 视频源
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+03-video/raw/
+03-video/output/
+
+# 临时产出
+*.tmp
+*.bak
+*.bak-*
+*.swp
+.DS_Store
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Python venv
+.venv/
+venv/
+*.egg-info/
+
+# 凭据(双保险,虽然这是 public repo 不该有)
+*.env
+*.key
+*.pem
+.env*
+secrets/
+credentials/

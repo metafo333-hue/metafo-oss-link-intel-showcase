@@ -1,0 +1,5 @@
+[link-intel] classify → type=social platform=xiaohongshu
+[link-intel] extract.py: social 类型触发边界处理
+[link-intel] 边界说明：小红书强登录墙 + 反爬，无免费自动提取方案
+[link-intel] A6 归档目录已建立（04-social/产出/）
+[link-intel] 返回边界说明文件，非报错退出
