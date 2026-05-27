@@ -1,0 +1,39 @@
+name: 🐛 Bug Report
+description: 提交 link-intel 使用过程中的 bug
+labels: ["bug", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢提交 bug 报告。请尽量提供完整信息加快修复。
+
+  - type: input
+    id: version
+    attributes:
+      label: 版本
+      placeholder: 例 v1.2.0 (cat SKILL.md | grep version)
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: 复现步骤
+      placeholder: |
+        1. 跑命令 `...`
+        2. 看到 `...`
+        3. 预期 `...`,实际 `...`
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: 日志/错误输出
+      render: shell
+
+  - type: input
+    id: env
+    attributes:
+      label: 环境
+      placeholder: macOS 14.5 / Python 3.12 / Claude Code 0.6
